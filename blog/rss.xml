@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Chat Learning Blog</title>
+        <link>https://Nana-Miko.githb.io/blog</link>
+        <description>Chat Learning Blog</description>
+        <lastBuildDate>Fri, 26 Aug 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[欢迎]]></title>
+            <link>https://Nana-Miko.githb.io/blog/欢迎</link>
+            <guid>欢迎</guid>
+            <pubDate>Fri, 26 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[有一天，我的一个朋友说了句，我突然想到一个好玩的点子！]]></description>
+            <content:encoded><![CDATA[<p>有一天，我的一个朋友说了句，我突然想到一个好玩的点子！
+于是，就有了ChatLearning</p><p>感谢@FuYon的加入，为后续的开发提供了很多新功能的思路和改进方向</p><p>也欢迎大家在<a href="https://mirai.mamoe.net/topic/1018/chatlearning-%E8%AE%A9bot%E5%AD%A6%E4%BC%9A%E4%BD%A0%E7%9A%84%E7%BE%A4%E8%81%8A-%E9%99%84%E5%B8%A6%E6%96%87%E5%AD%97%E8%BD%AC%E6%8D%A2%E8%AF%AD%E9%9F%B3?page=1" target="_blank" rel="noopener noreferrer">mirai论坛</a>或者是<a href="https://github.com/Nana-Miko/ChatLearning/issues" target="_blank" rel="noopener noreferrer">issue</a>反馈bug和后续更新的意见！</p>]]></content:encoded>
+            <category>前言</category>
+        </item>
+        <item>
+            <title><![CDATA[V2.5.0]]></title>
+            <link>https://Nana-Miko.githb.io/blog/V2.5.0</link>
+            <guid>V2.5.0</guid>
+            <pubDate>Sat, 05 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[新增]]></description>
+            <content:encoded><![CDATA[<p><strong>新增</strong></p><ul><li>深度学习语音转换，详情见<a href="https://github.com/Nana-Miko/ChatLearning/blob/master/ToVoice/ToVoice.md" target="_blank" rel="noopener noreferrer">README</a></li></ul><p><strong>修复</strong></p><ul><li>修复了未有本群词库时，开启回复功能会导致回复功能失效的问题</li></ul><p><strong>更新注意</strong></p><ul><li><strong>Windows</strong>只需覆盖<code>exe</code>文件</li><li><strong>Linux</strong>则需覆盖所有<code>py</code>文件</li></ul>]]></content:encoded>
+            <category>版本发布</category>
+        </item>
+        <item>
+            <title><![CDATA[V2.1.0]]></title>
+            <link>https://Nana-Miko.githb.io/blog/V2.1.0</link>
+            <guid>V2.1.0</guid>
+            <pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[新增]]></description>
+            <content:encoded><![CDATA[<p><strong>新增</strong></p><ul><li>返回的词库表格支持下载至本地进行浏览</li></ul><p><strong>修复</strong></p><ul><li>修复了在查找答案时发送图片导致程序崩溃的问题</li><li>修复了有些答案无法查找的问题</li><li>修复了有查找结果但是表格为空的问题</li></ul><p><strong>优化</strong></p><ul><li>优化表格的显示方式，现在不同问题间有明显区分，便于查看</li></ul><p><strong>更新注意</strong></p><ul><li><strong>Windows</strong>只需覆盖<code>exe</code>文件</li><li><strong>Linux</strong>则需覆盖所有<code>py</code>文件 </li><li>从ChatLearningV1.2.0之前的版本更新，请先使用<code>blackfreq *</code>来设置黑名单容错次数</li></ul>]]></content:encoded>
+            <category>版本发布</category>
+        </item>
+        <item>
+            <title><![CDATA[V2.0.0]]></title>
+            <link>https://Nana-Miko.githb.io/blog/V2.0.0</link>
+            <guid>V2.0.0</guid>
+            <pubDate>Mon, 28 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[新增]]></description>
+            <content:encoded><![CDATA[<p><strong>新增</strong></p><ul><li>至此新的管理模式已全部开发完毕，功能趋于完善，支持列出群词库、在所有群词库内查找关键字并删除条目等</li><li>全新的管理模式，请见<a href="https://github.com/Nana-Miko/ChatLearning/blob/master/README.md" target="_blank" rel="noopener noreferrer">README</a></li></ul><p><strong>更新注意</strong></p><ul><li><strong>Windows</strong>只需覆盖<code>exe</code>文件</li><li><strong>Linux</strong>则需覆盖所有<code>py</code>文件  并使用<code>pip install -u cos-python-sdk-v5</code>来安装新的模块</li><li>从ChatLearningV1.2.0之前的版本更新，请先使用<code>blackfreq *</code>来设置黑名单容错次数</li></ul>]]></content:encoded>
+            <category>版本发布</category>
+        </item>
+        <item>
+            <title><![CDATA[V1.2.0]]></title>
+            <link>https://Nana-Miko.githb.io/blog/V1.2.0</link>
+            <guid>V1.2.0</guid>
+            <pubDate>Sat, 26 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[新增]]></description>
+            <content:encoded><![CDATA[<p><strong>新增</strong></p><ul><li>特定词条过滤系统</li><li>敏感词过滤系统</li><li>黑名单系统</li><li>全新的管理模式，请见<a href="https://github.com/Nana-Miko/ChatLearning/blob/master/README.md" target="_blank" rel="noopener noreferrer">README</a></li></ul><p><strong>修复</strong></p><ul><li>修复了在Linux环境下使用后台运行指令前台报错的问题（大概）</li></ul><p><strong>更新注意</strong></p><ul><li><strong>Windows</strong>只需覆盖<code>exe</code>文件</li><li><strong>Linux</strong>则需覆盖所有<code>py</code>文件</li><li>更新后务必先使用<code>blackfreq *</code>来设置黑名单容错次数</li></ul>]]></content:encoded>
+            <category>版本发布</category>
+        </item>
+        <item>
+            <title><![CDATA[ClTools]]></title>
+            <link>https://Nana-Miko.githb.io/blog/ClTools</link>
+            <guid>ClTools</guid>
+            <pubDate>Fri, 25 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[说明]]></description>
+            <content:encoded><![CDATA[<p><strong>说明</strong></p><ul><li>这是一个可以将词库文件<code>.cl</code>转换为<code>txt</code>文件的工具，以便于查找和删改词库</li></ul><p>使用方法请查看<a href="https://github.com/Nana-Miko/ChatLearning/blob/master/tools/README.md" target="_blank" rel="noopener noreferrer">README</a></p>]]></content:encoded>
+            <category>工具发布</category>
+        </item>
+        <item>
+            <title><![CDATA[V1.1.0]]></title>
+            <link>https://Nana-Miko.githb.io/blog/V1.1.0</link>
+            <guid>V1.1.0</guid>
+            <pubDate>Thu, 24 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[新增]]></description>
+            <content:encoded><![CDATA[<p><strong>新增</strong></p><ul><li>现支持私聊bot使用ChatLearning控制台的指令，为了避免与其他插件冲突，需要在前面加上"!"</li><li>支持在删除答案时批量删除，且答案会以转发形式发送</li><li>添加多个群的时候，间隔现在支持使用空格</li><li>支持添加多个管理员</li></ul><p><strong>修复</strong></p><ul><li>在第一次使用ChatLearning时进入管理模式会导致闪退</li></ul><p><strong>更新注意</strong></p><ul><li>Windows只需要覆盖exe文件</li><li>Linux则需要覆盖所有.py文件</li><li>本次更新因为更改了管理员的数据类型，请更新后第一件事就是setadmin，重新添加管理员</li><li>进入管理模式后请不要在ChatLearning控制台中输入任何信息，可能会造成错误，这是因为更改了管理模式的运行逻辑，为后续新增功能做准备</li></ul>]]></content:encoded>
+            <category>版本发布</category>
+        </item>
+        <item>
+            <title><![CDATA[V1.1.5]]></title>
+            <link>https://Nana-Miko.githb.io/blog/V1.1.5</link>
+            <guid>V1.1.5</guid>
+            <pubDate>Thu, 24 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[新增]]></description>
+            <content:encoded><![CDATA[<p><strong>新增</strong></p><ul><li>删除答案时支持清空</li><li>删除答案时附带上时间信息</li><li><code>check</code>指令新增显示ChatLearning的运行状况</li><li>现在输入<code>add learnings *</code>可同时添加开启记录和回复的群</li></ul><p><strong>修复</strong></p><ul><li>修复了未收集到词库时无法使用<code>check</code>指令的问题</li><li>修复了<code>data.json</code>文件中当host选项未填上端口时无法启动ChatLearning的问题</li></ul><p><strong>优化</strong></p><ul><li>现在管理模式只能在聊天环境中进入</li><li><code>data.json</code>文件host选项可以不附带上端口</li></ul><p><strong>更新注意</strong></p><ul><li><strong>Windows</strong>只需覆盖<code>exe</code>文件</li><li><strong>Linux</strong>则需覆盖所有<code>py</code>文件</li><li>从<code>v1.0.2</code>及更早版本升级时，需首先使用<code>setadmin</code>重新设置管理员</li></ul>]]></content:encoded>
+            <category>版本发布</category>
+        </item>
+        <item>
+            <title><![CDATA[V1.0.0]]></title>
+            <link>https://Nana-Miko.githb.io/blog/V1.0.0</link>
+            <guid>V1.0.0</guid>
+            <pubDate>Wed, 23 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[demo版本，欢迎提出bug和后续更新意见]]></description>
+            <content:encoded><![CDATA[<p>demo版本，欢迎提出bug和后续更新意见</p>]]></content:encoded>
+            <category>版本发布</category>
+        </item>
+        <item>
+            <title><![CDATA[V1.0.2]]></title>
+            <link>https://Nana-Miko.githb.io/blog/V1.0.2</link>
+            <guid>V1.0.2</guid>
+            <pubDate>Wed, 23 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[修复]]></description>
+            <content:encoded><![CDATA[<p><strong>修复</strong></p><ul><li>修复了管理模式在删除答案时有时会出现RuntimeError异常的问题</li></ul><p>tips：进入管理模式后会关闭记录功能和回复功能，请在退出管理模式后手动重新开启</p>]]></content:encoded>
+            <category>版本发布</category>
+        </item>
+    </channel>
+</rss>

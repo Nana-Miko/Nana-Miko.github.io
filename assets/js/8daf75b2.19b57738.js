@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknanami=self.webpackChunknanami||[]).push([[9085],{1825:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/\u7248\u672c\u53d1\u5e03","name":"\u7248\u672c\u53d1\u5e03","count":8,"permalink":"/blog/tags/\u7248\u672c\u53d1\u5e03"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknanami=self.webpackChunknanami||[]).push([[4730],{6090:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/\u524d\u8a00","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
